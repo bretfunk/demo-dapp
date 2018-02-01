@@ -1,9 +1,13 @@
 pragma solidity ^0.4.11;
+//import "zeppelin-solidity/contracts/lifecycle/Migrations.sol";
+//import "zeppelin-solidity/contracts/ownership/Ownable.sol";
 
 /// @title Listing
 /// @dev Used to keep marketplace of listings for buyers and sellers
 /// @author Matt Liu <matt@originprotocol.com>, Josh Fraser <josh@originprotocol.com>, Stan James <stan@originprotocol.com>
 
+//imports Migrations and Ownable from the Zeppelin library
+//contract Listing is Migrations {
 contract Listing {
 
   /*
